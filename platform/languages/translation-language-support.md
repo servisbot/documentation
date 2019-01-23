@@ -109,4 +109,4 @@
 |                                                                             |               |                  |                  |
 
 Reference: https://docs.aws.amazon.com/translate/latest/dg/what-is.html  
-SDK: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Translate.html 
+SDK: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Translate.html
