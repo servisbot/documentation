@@ -35,8 +35,8 @@ $ npm -v
 6.4.1
 ```
 
-#Platform features
-[Avatars](platform/avatars.md)
-[Language Support](platform/language-support.md)
-[Messenger Configeration](messenger-configuration)
-[Timeline Elements]()
+# Platform features
+* [Avatars](platform/avatars.md)
+* [Language Support](platform/language-support.md)
+* [Messenger Configeration](messenger-configuration)
+* [Timeline Elements]()
