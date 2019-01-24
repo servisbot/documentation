@@ -10,7 +10,7 @@ This readme outlines the kinds of documentation available to build bots and inte
 [Bot Blueprints](bot-blueprints.md)
 [Building Bots with the CLI](getting-started-cli.md)
 
-## <a name="prerequisites"></aPrerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 ## Portal Access
 Get Access to the Portal
