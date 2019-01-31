@@ -36,7 +36,8 @@ $ npm -v
 ```
 
 # Platform features
-* [Avatars](platform/avatars.md)
-* [Language Support](platform/language-support.md)
+* [Avatars](avatars.md)
+* [Language Support](language-support.md)
 * [Messenger Configuration](messenger-configuration.md)
-* [Timeline Elements]()
+* [Timeline Markup](timeline-markup.md)
+* [Endpoints](endpoints.md)
