@@ -48,7 +48,7 @@ $ sb-cli blueprints list
 Use the CLI to to create a password reset maker BOT
 
 ```
-$ sb-cli blueprint build-interactive password-reset
+$ sb-cli blueprint build-interactive PasswordReset
 ```
 you will be asked some questions to help configure your Bot
 ```
