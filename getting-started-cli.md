@@ -24,7 +24,7 @@ $ sb-cli
 If installation was a success you will get the manpage for the cli
 Login to your organization with the cli
 
-Replace [YOUR ORG] and run the command
+Replace <organization> and run the command
 
 ```
 $ sb-cli login <organization>
