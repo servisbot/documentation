@@ -9,6 +9,7 @@ This readme outlines the kinds of documentation available to build bots and inte
 * [Getting Started with the ServisBot Portal](getting-started.md)
 * [Bot Blueprints](bot-blueprints.md)
 * [Building Bots with the CLI](getting-started-cli.md)
+* [Debugging Conversations](debugging-conversations.md)
 
 ## <a name="prerequisites"></a>Prerequisites
 
