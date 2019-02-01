@@ -1,4 +1,4 @@
-# Welcome to ServisBot
+# Welcome to ServisBOT
 
 This readme outlines the kinds of documentation available to build bots and integrate them with your platform.
 
@@ -6,7 +6,7 @@ This readme outlines the kinds of documentation available to build bots and inte
 
 * [Prerequisites](#prerequisites)
 * [Definitions](definitions.md)
-* [Getting Started with the ServisBot Portal](getting-started.md)
+* [Getting Started with the ServisBOT Portal](getting-started.md)
 * [Bot Blueprints](bot-blueprints.md)
 * [Building Bots with the CLI](getting-started-cli.md)
 * [Debugging Conversations](debugging-conversations.md)
@@ -16,7 +16,7 @@ This readme outlines the kinds of documentation available to build bots and inte
 ### Portal Access
 Get Access to the Portal
 To get started, you will need a ServisBOT organization with an initial user.
-Contact your ServisBot salesrep or account manager for initial account creation. We can help you find your admin, or get you into the system.
+Contact your ServisBOT salesrep or account manager for initial account creation. We can help you find your admin, or get you into the system.
 
 
 ### Browser Support
@@ -39,6 +39,7 @@ $ npm -v
 # Platform features
 * [Avatars](avatars.md)
 * [Language Support](language-support.md)
+* [Definitions](definitions.md)
 * [Messenger Configuration](messenger-configuration.md)
 * [Timeline Markup](timeline-markup.md)
 * [Endpoints](endpoints.md)

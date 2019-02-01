@@ -1,5 +1,5 @@
 # Bot Blueprints
-Blueprints are the starting point for most bot experiences. Much of the Servisbot definitions and settings are already taken care of so that you can get into the system and start playing with a bot. In the case of blueprints that integrate with external services, you will have limited ability to modify the bot experience if you use the default settings. Getting more advanced will required you [get your hands dirty with the CLI](getting-started-cli.md) or create bots in Dialogflow/Lex.
+Blueprints are the starting point for most bot experiences. Much of the ServisBOT definitions and settings are already taken care of so that you can get into the system and start playing with a bot. In the case of blueprints that integrate with external services, you will have limited ability to modify the bot experience if you use the default settings. Getting more advanced will required you [get your hands dirty with the CLI](getting-started-cli.md) or create bots in Dialogflow/Lex.
 
 ## Generic Lex Bot
 A bot capable of replying to queries configured in Lex bot

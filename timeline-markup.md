@@ -292,7 +292,7 @@ An example of DetailView markup is:
 
 <TimelineMessage>
   <DetailView
-    title="ServisBot"
+    title="ServisBOT"
     description="Check out our bots"
     url="https://servisbot.com"
   />
@@ -325,7 +325,7 @@ StaticMap
 
     A static Google Maps component
     Plots a pin on the map based on coordinates
-    Requires a Google API key to be based into Servisbot Messenger in the Servisbot.init() function
+    Requires a Google API key to be based into ServisBOT Messenger in the ServisBOT.init() function
 
 The parameters for StaticMap are:
 description	(string) the description to be associated with the map e.g. the address
