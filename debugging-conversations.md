@@ -10,7 +10,7 @@ Further options for this command can be found using ```sb-cli conversation creat
 ### Watching a conversation
 It is possible to watch an existing conversation if you have the conversation identifier available. This watching behaves identically to creating a conversation except you will only receive events that occur after you being watching, no previous events will be shown.
 
-To start a conversation with a given bot use ```sb-cli conversation watch <conversation_identifier>```
+To watch a conversation with a given conversation ID use ```sb-cli conversation watch <conversation_identifier>```
 Further options for this command can be found using ```sb-cli conversation watch --help```
 
 ### Examples
