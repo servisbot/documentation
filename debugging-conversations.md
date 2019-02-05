@@ -2,7 +2,7 @@
 This article assumes some knowledge of the servisbot-cli, a getting started guide to the CLI can be found here: [Getting Started with the CLI](https://github.com/servisbot/documentation/blob/master/getting-started-cli.md)
 
 ## Creating a Conversation
-It is possible to create a conversation with a bot using its endpoint through the CLI. After the conversation is created it will begin listening to events for that conversation and open the conversation is your default web browser.
+It is possible to create a conversation with a bot using its endpoint through the CLI. After the conversation is created it will begin listening to events for that conversation and open the conversation in your default web browser.
 
 To start a conversation with a given bot use ```sb-cli conversation create <endpoint>```
 Further options for this command can be found using ```sb-cli conversation create --help```
