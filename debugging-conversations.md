@@ -8,9 +8,9 @@ To start a conversation with a given bot use ```sb-cli conversation create <endp
 Further options for this command can be found using ```sb-cli conversation create --help```
 
 ### Watching a conversation
-It is possible to watch an existing conversation if you have the conversation identifier available.
+It is possible to watch an existing conversation if you have the conversation identifier available. This watching behaves identically to creating a conversation except you will only receive events that occur after you begin watching, no previous events will be shown.
 
-To start a conversation with a given bot use ```sb-cli conversation watch <conversation_identifier>```
+To watch a conversation with a given conversation ID use ```sb-cli conversation watch <conversation_identifier>```
 Further options for this command can be found using ```sb-cli conversation watch --help```
 
 ### Examples
@@ -43,20 +43,25 @@ Listening to events for identity eu-west-1:35b871ec-ad65-47a4-95fd-9d7484a9e70d 
 # After the ping worker decided it cant handle 'ding' we got a new event which showed the workers are empty.
 # We have exhausted all our workers in this bot trying to handle the 'ding' message. 
 # However we can see that the workers array only has one worker
-{  
-   "data":{  
+{
+   "data":{
       "action":"workersEmpty",
-      "payload":{  
-         "workers":[  
-            {  
+      "payload":{
+         "workers":[
+            {
+               "topic":"arn:aws:sns:eu-west-1:550094171826:heupper-botarmy-r2-ping-worker",
                "id":"srn.worker.YP5EHpGVr:::r2-ping-worker:::published",
+               "functionName":"heupperbotarmy-r2-ping-worker",
+               "config":{
+
+               }
             }
          ],
-         "event":{  
+         "event":{
             "version":"v2",
             "type":"TimelineMessage",
             "contentType":"message",
-            "contents":{  
+            "contents":{
                "message":"ding"
             },
             "correlationId":"OJO94vscr",
@@ -66,12 +71,28 @@ Listening to events for identity eu-west-1:35b871ec-ad65-47a4-95fd-9d7484a9e70d 
             "timestamp":1548929200018,
             "organization":"flowit",
             "identity":"eu-west-1:35b871ec-ad65-47a4-95fd-9d7484a9e70d",
-            },
             "currentBotName":"PingBot"
+         },
+         "environment":{
+            "respondOn":"arn:aws:sns:eu-west-1:550094171826:heupperbotarmy-maestroMessagingEgressSNSTopic",
+            "signallingFunction":"heupperbotarmy-maestroSignalling",
+            "topicPrefix":"arn:aws:sns:eu-west-1:550094171826:heupper-botarmy-"
          },
          "workerAction":"workersEmpty"
       }
    }
 }
+```
 
+Example showing watching for a simple PING, PONG conversation.
+```
+# Run the command
+sb-cli conversation watch SkmIdrgNE
+Starting Watch Conversation command
+
+# We begin listening to events for this conversation
+Listening to events for identity eu-west-1:35b871ec-ad65-47a4-95fd-9d7484a9e70d & conversation SkmIdrgNE
+
+# After sending ping to the bot we get a notification to say it was received and routed
+{"data":{"event":"Event of type TimelineMessage arrived. Routing to worker: srn.worker.YP5EHpGVr:::r2-ping-worker:::published"}}
 ```
