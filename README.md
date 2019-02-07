@@ -6,7 +6,7 @@ This readme outlines the kinds of documentation available to build bots and inte
 
 * [Prerequisites](#prerequisites)
 * [Definitions](definitions.md)
-* [Getting Started with the ServisBOT Portal](getting-started.md)
+* [Getting Started with the ServisBOT Portal](classic-flow-overview.md)
 * [Bot Blueprints](bot-blueprints.md)
 * [Building Bots with the CLI](getting-started-cli.md)
 * [Debugging Conversations](debugging-conversations.md)
@@ -38,6 +38,7 @@ $ npm -v
 
 # Platform features
 * [Avatars](avatars.md)
+* [Classic Flow Overview](classic-flow-overview.md)
 * [Language Support](language-support.md)
 * [Definitions](definitions.md)
 * [Messenger Configuration](messenger-configuration.md)
