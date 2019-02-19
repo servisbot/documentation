@@ -1,0 +1,11 @@
+This document will provide guidance on how to view interactions customers have had with messenger and your Workers and how to manage these.
+
+Conversations
+
+Within this section of the organisations portal, users will be able to see a list of all the interactions/conversations that have took place between customers and botty within messenger.
+
+    To view this information, the user must first select the “Conversations” tab within the left hand side of the portal. This will then display a list of all existing conversations that have took place within messenger.
+
+2. To access a specific conversation that has took place within messenger, select an item from the list.
+
+3. You shall then be taken to a thread of the conversation in which you can view messages from both botty and users along with the timestamps for each message. You will now be able to see if the Worker had handled the customer query or not and make the necessary changes

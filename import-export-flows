@@ -1,0 +1,21 @@
+This document will outline the steps needed to move entire flows or specific nodes of a flow, from one canvas to another, from separate Workers. This process is known as “Importing and Exporting”. When duplicating flows or nodes into different canvases within the same Worker, this is simply copy and pasting
+
+Sections
+
+    Importing and Exporting Flows and Nodes Across Separate Workers
+    Copy and Pasting Flows and Nodes within the same Worker
+
+Importing and Exporting Flows and Nodes Across Separate Workers
+
+    You must first highlight the flow, or parts of the flow in which you would like to copy over to another canvas. To do this simply click and drag your cursor over the required parts of the flow. You will know which nodes are highlighted as they will develop an orange border.
+    Go to the more symbol found within the top right hand corner of the node red canvas. This will display a drop down list containing different options. Select the “Export” option.
+    This will display a node red clipboard containing the code of all nodes highlighted. Select “Export to Clipboard“.
+    Access the node red canvas in which you would like to input these external nodes into. Go to the more symbol, again, found at the top right hand corner of the node red canvas. Select the “Import” option and then “Clipboard“.
+    This shall display an empty node red clipboard. You may either right click and select “Paste” or press “CMD + V” to paste the previously highlighted nodes into this clipboard.
+    Select “Import” and you shall see the nodes placed onto the canvas ready for use.
+
+Copy and Pasting Flows and Nodes within the same Worker
+
+    You must first highlight the flow, or parts of the flow in which you would like to copy over to another canvas. To do this simply click and drag your cursor over the required parts of the flow. You will know which nodes are highlighted as they will develop an orange border.
+    You may either right click these highlighted flows and select the “Copy” option. Access the canvas within the same Worker in which you would like to put these nodes in. Right click and select the “Paste” option.
+    You can also use the keyboard controls by selecting “CMD+C” to copy, followed by “CMD+V” to paste onto the desired canvas within the Worker.

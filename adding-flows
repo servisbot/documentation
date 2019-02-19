@@ -1,0 +1,15 @@
+The following document provides instruction for how a user can implement multiple separate flows, within the same Worker. This provides a less cluttered Worker and one that is easier to manage through the use of separate canvases. This document will also cover the ability to connect these flows at specific points through the use of nodes and therefore will be broken up into two sections.
+
+Creating a Separate Flow
+
+    When looking at a Node Red canvas, found within the top right hand corner is a “+” icon. Selecting this will create another blank node red canvas, within the same Worker.
+    By double clicking the tab of this new canvas, its properties will appear. It is recommended that you change the name of this flow to something by which its purpose can be easily recognised.
+    You may start creating a flow on this new blank canvas.
+
+Connecting a Workers Separate Flows
+
+    You must access the flow in which the Worker begins with. From here, grab and drag a “Link” node with its connection port on the right side of the node. Connect this node to the point in which you would like to move onto the separate flow.
+    Double click this “Link” node and its properties page shall appear. Name this “Link” node something easily identifiable for future purposes.
+    Navigate to the separate flow set up within the Worker. Grab and drag the “Link” node with the connection port on its left side.
+    Access this nodes properties page by double clicking the node. The first Link node set up in the other flow should appear in the list, select this.
+    These flows will now be connected via these links and will pass between one another at the points in which they are connected.

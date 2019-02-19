@@ -1,0 +1,8 @@
+The following document provides guidance and instruction on how a user can pass messenger onto another Worker in order to carry out other capabilities or parts of a process.
+
+    Decide upon a point within the flow in which you would like to pass messenger to another Worker after this has been executed.
+    Once decided, grab and drag the “Goto” node from the palette and place this closely to the right of the chosen node and connect them via their input and output ports.
+    Double click the “GoTo” node, this will open its properties box. There will be a dropdown list within its settings. Within this drop down list, there will be the names of all other existing Workers.*
+    Whatever Worker you select from this list, this will be the flow that will trigger after this “GoTo” node has executed.
+
+Note: Step 3* – There may be some cases in which a flow has multiple “GoTo” nodes, it is good practise to name these nodes the same as the Worker in which they are pointed to. This makes them easily identifiable and easier to manage

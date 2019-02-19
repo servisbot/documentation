@@ -1,0 +1,184 @@
+The following document will provide instruction in setting up and managing your organisations DialogFlow account or “Agent”. This will also include guidelines and helpful tools for the different areas of DialogFlow you will likely use when implementing and managing intents and other content
+
+Sections
+
+    Agents
+    Intents
+    Training Phrases
+    Actions and Parameters
+    Text Responses
+    Intent History
+    Intent Analytics
+
+
+
+Agents
+
+An agent is a specific account within DialogFlow and you can find these “Agents” within the left hand side panel within the drop down list. It is common for organisations to have just 1 agent to manage all of their content. Different agents would allow an organisation to have different natural language models.
+
+New Agent
+
+    New users: Click on Create new agent in the left menu.
+    Users with existing agents: Click on the current agent name in the left menu and click Create new agent.
+    Enter a name for your agent.
+    Choose a default language.
+    Choose a default time zone.
+    Click CREATE.
+
+Adding Users to Agent
+
+    Click the gear icon next to the agent name
+    Click the Share tab
+    Enter new user’s email address
+    Select a role
+    Click Add
+    Click Save
+
+
+
+Intents
+
+A DialogFlow agent is built up of Intents. These represent a large variety of user intentions that will be asked of the BOT within messenger and is the content of conversation for a BOT. By going into an intent you are able to add and manage the ways that a user may ask a specific question using “Training Phrases” by using key words or entire sentences. From these intents you are able to design the responses to these Training Phrases that shall be delivered by the BOT into messenger
+
+New Intent
+
+    Click on the add icon next to Intents in the menu on the left side of the Dialogflow console.
+    Enter a name for your intent. Generally, your intent name should represent the kind of user queries it recognizes.
+    Click SAVE.
+
+Delete Intent
+
+    Click on the Intents tab in the navigation.
+    Hover your cursor over the intent you want to delete.
+    Click the trashcan icon that appears to delete the intent.
+
+Helpful Reminders:
+
+    The more intents there are the more content there is for the BOT to use within a conversation with a user
+
+
+
+Training Phrases
+
+Training Phrases are collections of possible utterances (messages) that users might say or type. Users do not need to worry about adding every single possible variation of a phrase that users might type. This is because DialogFlow has built in machine learning that shall automatically expand this content of training phrases.
+
+An example of this would be if a user entered “I want to order a pizza” as a training phrase, DialogFlow would automatically understand “I want a pizza” or “Get a pizza” amongst other similar variations.
+
+New Training Phrase
+
+    Within the Training Phrases section, enter the text you would expect a user to also enter and hit the Enter button on your keyboard
+
+Delete Training Phrase
+
+    Locate the Training Phrases section within an intent and hover your cursor over the phrase.
+    Click the trashcan icon that appears to delete the phrase.
+
+Helpful Reminders:
+
+    For FAQ related intents where it may be simple question and answer content, it is best practise for there to be between 7 & 10 training phrases. This is enough for DialogFlow to use in order to expand these training phrases so you don’t have to.
+    Keywords are important when adding training phrases, but adding sentences would better train DialogFlow and would provide more information the machine learning to use, which would automatically expand this list of training phrases
+
+
+
+Actions and Parameters
+
+DialogFlow Agents are commonly built up of many intents. These intents may be similar to one another but they can also differ from each other. Using “Actions” within Intents, the BOT is able to trigger different logic and type of conversation if a user asks a specific type of question.
+
+You do not need to add an action to an intent yourself. Please follow the steps below if you wish the BOT to trigger different logic based on what the user asks
+
+    Define and add the intent as normal with its training phrases and responses
+    Inform your point of contact at ServisBOT of this new intent along with what you would like the BOT to do or say if a user triggers this intent
+
+Helpful Reminders:
+
+    Ensure that this Action text field is empty, unless you know of an action that needs to be assigned to the intent
+
+
+
+Text Responses
+
+In the Responses section of your intent, you can define one or more static text responses that will be returned when a user’s input matches that particular intent. If you have more than one text response defined, your agent will select responses to return at random (but never use a variation twice in a row) until all responses have been used.
+
+Responses within the same text box
+
+Inputting text responses within the same text box means that these are variations for the same response. This means that if a user was to trigger the same intent more than once, the BOT would be able to provide a variety of the same response to make the experience more conversational
+
+Responses in separate text boxes
+
+If a user triggers an intent then these responses shall appear one after the other within messenger
+
+Helpful Reminders:
+
+    We recommend adding several varieties of text responses to make your agent more conversational
+
+
+
+Intent History
+
+The History page shows a simplified version of the conversations your agent has engaged in. These logs are chronological and intended to be an overview of how users interact with your agent.
+
+Filter results
+
+The history logs available for your agent can be filtered by using the options at the top of the page. From left to right:
+
+    Choose All platforms to view all history or pick a specific integration.
+    Choose to view all conversations or just the conversations where no intent was matched.
+    Pick a date range to display the history logs from that time.
+
+Helpful Reminders:
+
+    The key symbol to look for is the orange exclamation mark (!) that may appear next to some utterances within a conversation. This means that the BOT was not able to find a suitable response and therefore it was not handled
+    Using this tool will allow you to see which training phrases you had not yet added, or indicate that an entirely new intent with new responses is needed
+
+
+
+Intents Analytics
+
+The analytics page gives you insight into how well your agent is performing, so you can work to further improve the user experience you’re providing.
+
+This shows two types of data related to the agent and the conversations it’s been a part of:
+
+    Usage data: Number of sessions and queries per session.
+    NLU data: Most frequently used intents and exit percentages.
+
+Dashboard
+
+Clicking on Analytics in the left hand menu will take you to UI Dashboard. Here, you can review statistics relevant to the specific agent.
+
+Filter
+
+Using the dropdown menu in the upper right hand corner, you can filter the data by a chosen date range (1 day, 7 days, or 30 days).
+
+Sessions
+
+Sessions represent each time a user interacts with your agent. Both complete and incomplete (where users just stopped responding) conversations are logged and count towards session-related metrics.
+
+Sessions yesterday
+
+The graph above represents daily sessions with your agent. One-day values are plotted over time and are based off the 6 AM UTC timezone. The value above the graph (“41” in the screenshot) represents the number of sessions from the previous day (yesterday).
+
+The blue line in the graph shows the data for the current day or time period and the secondary, dotted line (light blue) indicates the data from the previous day or time period, so you can compare recent changes.
+
+Queries per session yesterday
+
+This section shows the average number of messages from the user per day. The secondary, dotted line (light blue) indicates the change from the last time period.
+
+Intents
+
+The following table shows the agent’s intents in order of popularity. Data in the table includes:
+
+    Intent name
+    Sessions: The number of sessions in which the intent was matched.
+    Count: The number of times the intent was used (total from all sessions).
+    Exit %: The percentage of sessions where a user exited the conversation in the specified intent. This is taken from the total number of sessions where this same intent was matched.
+    Agent response time: Average response time to user requests.
+
+Session flow
+
+The following chart visually summarises the conversational paths your users have taken when interacting with your agent:
+
+Hover your cursor over the intent names (blue boxes) to see the following information:
+
+    The percentage of all users that matched the intent.
+    The number of requests the intent was matched to.
+    The percentage of users that exited the intent.

@@ -1,0 +1,26 @@
+The following document will provide guidelines for uploading media files throughout your organisations portal.
+
+Sections
+
+    Response Dictionary
+    Configure Messenger
+
+Response Dictionary
+
+Attachments
+
+Document – Documents, specifically handle PDF, MSWord, OpenOffice docs. Any other documents are generically supported.
+
+Image – Images support jpg, png, and gif. There is no recommendation for size at this point.
+
+Video – We support a wide range of video files. Embedded styles are Youtube, Vimeo, & DailyMotion
+
+
+
+Configure Messenger
+
+Avatar Upload & URL – The URL you enter into the text inout field must be a publicly accessible in order for the URL to work and image to be displayed in messenger successfully.
+
+However, we recommend that users upload images. Images within a URL should have a height of 36px and a width ranging from 36px to 100px. PNG is the recommended file type
+
+Background Upload & URL – URL needs to be publicly accessible. Again, we recommend that users upload images. Image should by 350px wide and 600px high. The image should be under 200KB. PNG format is best.

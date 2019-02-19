@@ -2,10 +2,10 @@
 This documentation covers getting your first two bots created using the CLI, and then connects them together into one experience using our portal.
 
 It includes:
-Getting access to an organization and portal.
-Setting up the ServisBOT CLI (sb-cli)
-Setting up two bots
-Connecting the bots together.
+* Getting access to an organization and portal.
+* Setting up the ServisBOT CLI (sb-cli)
+* Setting up two bots
+* Connecting the bots together.
 
 
 Setup the CLI
