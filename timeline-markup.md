@@ -5,36 +5,30 @@ Timeline Markup can be combined with "context" from other sources and using Apac
 
 Timeline Markup is strict XML. All the rules of XML apply and an XML validator will at least tell you if your markup is well formed.
 
-
-## Table of Contents
-
-* Preamble: How to test these different components
-* TimelineMessage
-* TextMsg
-* List
-  - Vertical List, No Icons
-  - Vertical List with Icons
-* Carousel
-  - Large Carousel, Selectable Options
-  - Large Carousel, No Options
-  - Small Carousel
-* Item
-* Card
-* Broadcast
-* Option
-* DetailView
-* SuggestionPrompt
-* StaticMap
-* Generated JSON object
-
-
-## Preamble: How to test these different components
 An example of the TimelineMessage element is:
 ```
 <TimelineMessage>
   <TextMsg>Hello</TextMsg>
 </TimelineMessage>
 ```
+
+## Table of Contents
+* [TextMsg](#TextMsg)
+* [List](#List)
+  - Vertical List, No Icons
+  - Vertical List with Icons
+* [Carousel](#Carousel)
+  - Large Carousel, Selectable Options
+  - Large Carousel, No Options
+  - Small Carousel
+* [Item](#Item)
+* [Card](#Card)
+* [Broadcast](#)
+* [Option](#Option)
+* [DetailView](#DetailView)
+* [SuggestionPrompt](#SuggestionPrompt)
+* [StaticMap](#StaticMap)
+* [Generated JSON object](#Generated JSON object)
 
 ### TextMsg
 
@@ -106,6 +100,7 @@ To make a vertical list with small inline icons the markup is:
 ```
 
 To make a vertical list with large icons the markup is:
+
 ![](images/vertical-list-large-icons.png)
 ```
 <TimelineMessage>
@@ -122,6 +117,7 @@ To make a vertical list with large icons the markup is:
 ### Carousel
 #### Large Carousel, Selectable Options
 ![](images/large-carousel-selectable.png)
+
 To make a large horizontal list (or carousel) with selectable options, the markup is:
 ```
 <TimelineMessage>
@@ -151,6 +147,7 @@ To make a large horizontal list (or carousel) with selectable options, the marku
 ```
 #### Large Carousel, No Options
 ![](images/large-carousel-no-options.png)
+
 To make a large horizontal list (or carousel) with no options, the markup is:
 ```
 <TimelineMessage>
