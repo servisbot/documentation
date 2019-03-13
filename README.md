@@ -28,6 +28,8 @@ We strive to make sure our bots can reach your customers on all of the latest br
 Nodejs and CLI must be installed and run.
 You can verify NPM or Node installation by checking your version, anything higher than the versions listed here should work.
 
+
+
 ```
 $ node -v
 V8.3.x
@@ -35,6 +37,10 @@ V8.3.x
 $ npm -v
 6.4.1
 ```
+## Getting started
+You can get started building bots through either the [portal](getting-started-portal.md) or [CLI](getting-started-cli.md).
+
+~Happy bot building~
 
 # Platform features
 * [Avatars](avatars.md)
@@ -43,4 +49,5 @@ $ npm -v
 * [Definitions](definitions.md)
 * [Messenger Configuration](messenger-configuration.md)
 * [Timeline Markup](timeline-markup.md)
+* [Secrets](secrets.md)
 * [Endpoints](endpoints.md)
