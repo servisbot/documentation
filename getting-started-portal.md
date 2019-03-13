@@ -1,5 +1,5 @@
 # Getting Started with the ServisBOT Portal
-The ServisBOT is where
+The ServisBOT portal is the perfect starting point for getting used to the various aspects of the platform. It is also where Classic Flow bots are easiest to manage.
 
 ## Creating your first bot
 It is easy to create your first bot by using a template from within the portal. Make sure you have the  [Definitions](definitions.md) and  [Definitions](README.md) such as a portal account before starting.
@@ -55,5 +55,5 @@ You can provide a ServisBOT skin to an new or existing Dialogflow bot with a few
   </TimelineMessage>
   ```
   2. When you test that intent again, the bot should respond with a visual tile instead of text.
-  
+
   ![](images/vertical-list-large-icons.png)
