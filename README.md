@@ -40,7 +40,7 @@ $ npm -v
 ## Getting started
 You can get started building bots through either the [portal](getting-started-portal.md) or [CLI](getting-started-cli.md).
 
-~Happy bot building~
+**Happy bot building**
 
 # Platform features
 * [Avatars](avatars.md)
