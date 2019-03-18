@@ -17,6 +17,8 @@ npm install -g @servisbot/servisbot-cli
 The installation should run with no errors.
 you can validate your installation by running the cli.
 
+This is also the command you can run to update your cli.
+
 ```
 $ sb-cli
 ```

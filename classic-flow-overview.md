@@ -1,5 +1,5 @@
 # Classic Flow Overview
-This is where all of the nodes available for implementation can be found. , You can see a brief description for each node by hovering the cursor over each node.
+This is where all of the nodes available for implementation can be found. You can see a brief description for each node by hovering the cursor over each node.
 
 There is also a search filter found at the beginning of the palette to quickly navigate to a desired node, rather than scrolling through.
 
